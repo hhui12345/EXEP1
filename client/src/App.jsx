@@ -1,23 +1,9 @@
-import { useEffect, useState } from 'react';
-import axios from 'axios';
+import React from 'react';
 
 function App() {
-  const [products, setProducts] = useState([]);
-
-  useEffect(() => {
-    axios.get('http://localhost:5000/api/products')
-      .then(res => setProducts(res.data))
-      .catch(err => console.error('API error:', err));
-  }, []);
-
   return (
-    <div>
-      <h1>Danh sách sản phẩm</h1>
-      <ul>
-        {products.map(p => (
-          <li key={p.id}>{p.name} - {p.price}</li>
-        ))}
-      </ul>
+    <div className='text-amber-300 bg-amber-950 flex justify-center'>
+      123123
     </div>
   );
 }
