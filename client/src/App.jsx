@@ -1,10 +1,15 @@
-import React from 'react';
+// src/App.jsx
+import { useRoutes } from 'react-router-dom';
+import routes from './routes';
+import { Suspense } from 'react';
 
 function App() {
+  const content = useRoutes(routes);
+
   return (
-    <div className='text-amber-300 bg-amber-950 flex justify-center'>
-      123123
-    </div>
+    <>
+      <Suspense fallback={<div>Loading...</div>}>{content}</Suspense>
+    </>
   );
 }
 
