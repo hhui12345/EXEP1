@@ -7,25 +7,25 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-2xl font-bold text-amber-800">DearFab</h1>
+            <h1 className="text-2xl font-bold text-amber-800">LiteMate</h1>
           </div>
 
           {/* Navigation Menu */}
           <nav className="hidden md:flex space-x-8">
             <a
-              href="#"
+              href="/home"
               className="text-green-600 hover:text-green-700 font-medium transition-colors duration-200"
             >
               Trang Chủ
             </a>
             <a
-              href="#"
+              href="/products"
               className="text-green-600 hover:text-green-700 font-medium transition-colors duration-200"
             >
               Sản Phẩm
             </a>
             <a
-              href="#"
+              href="/about"
               className="text-green-600 hover:text-green-700 font-medium transition-colors duration-200"
             >
               Giới Thiệu
