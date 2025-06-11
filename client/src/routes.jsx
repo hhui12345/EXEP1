@@ -1,5 +1,5 @@
-import ProductPage from './pages/products/Product';
-import ProductDetail from './pages/products/ProductDetail';
+import ProductPage from './pages/product/Product';
+import ProductDetail from './pages/product/ProductDetail';
 import AboutPage from './pages/about/About';
 import MainLayout from './layout/MainLayout';
 import HomePage from './pages/home/Home_backup';
