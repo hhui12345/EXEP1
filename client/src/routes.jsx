@@ -1,3 +1,9 @@
+import ProductPage from "./pages/product/Product";
+import ProductDetail from "./pages/product/ProductDetail";
+import AboutPage from "./pages/about/About";
+import MainLayout from "./layout/MainLayout";
+import HomePage from "./pages/home/Home_backup";
+import AdminApp from "../src/pages/admin/AdminApp";
 import ProductPage from './pages/product/Product';
 import ProductDetail from './pages/product/ProductDetail';
 import AboutPage from './pages/about/About';
@@ -7,18 +13,26 @@ import RegisterPage from './pages/login/Register';
 const routes = [
   //client routes
   {
+    path: "/",
+    element: <MainLayout />,
     path: '/',
 
     children: [
       {
-        path: 'products',
+        path: "home",
         children: [
-          { index: true, element: <ProductPage /> }, //index: true tương đương path:''
-          { path: 'detail/:id', element: <ProductDetail /> },
+          { index: true, element: <HomePage /> }, //index: true tương đương path:''
         ],
       },
       {
-        path: 'about',
+        path: "products",
+        children: [
+          { index: true, element: <ProductPage /> }, //index: true tương đương path:''
+          { path: "detail/:id", element: <ProductDetail /> },
+        ],
+      },
+      {
+        path: "about",
         children: [{ index: true, element: <AboutPage /> }],
       },
       {
@@ -30,6 +44,10 @@ const routes = [
         children: [{ index: true, element: <RegisterPage /> }],
       },
     ],
+  },
+  {
+    path: "admin",
+    children: [{ index: true, element: <AdminApp /> }],
   },
 ];
 
