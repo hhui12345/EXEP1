@@ -1,12 +1,14 @@
 import ProductPage from './pages/product/Product';
 import ProductDetail from './pages/product/ProductDetail';
 import AboutPage from './pages/about/About';
+import LoginPage from './pages/login/Login';
+import RegisterPage from './pages/login/Register';
 
 const routes = [
   //client routes
   {
     path: '/',
-   
+
     children: [
       {
         path: 'products',
@@ -18,6 +20,14 @@ const routes = [
       {
         path: 'about',
         children: [{ index: true, element: <AboutPage /> }],
+      },
+      {
+        path: 'user/login',
+        children: [{ index: true, element: <LoginPage /> }],
+      },
+      {
+        path: 'user/register',
+        children: [{ index: true, element: <RegisterPage /> }],
       },
     ],
   },

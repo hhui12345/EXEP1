@@ -1,13 +1,14 @@
 const mysql = require('mysql2/promise'); 
 require('dotenv').config();
+const {db: {host, user, password, database}} = require("../configs/config.db");
 
 async function connectToDB() {
   try {
     const connection = await mysql.createConnection({
-      host: process.env.DB_HOST,
-      user: process.env.DB_USER,
-      password: process.env.DB_PASSWORD,
-      database: process.env.DB_NAME,
+      host,
+      user,
+      password,
+      database
     });
 
     console.log('MySQL connect successfully');
