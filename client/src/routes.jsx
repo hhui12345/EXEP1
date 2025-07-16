@@ -1,6 +1,3 @@
-import ProductPage from "./pages/product/Product";
-import ProductDetail from "./pages/product/ProductDetail";
-import AboutPage from "./pages/about/About";
 import MainLayout from "./layout/MainLayout";
 import HomePage from "./pages/home/Home_backup";
 import AdminApp from "../src/pages/admin/AdminApp";
@@ -15,13 +12,11 @@ const routes = [
   {
     path: "/",
     element: <MainLayout />,
-    path: '/',
 
     children: [
       {
-        path: "home",
         children: [
-          { index: true, element: <HomePage /> }, //index: true tương đương path:''
+          { index: true, element: <HomePage /> },
         ],
       },
       {
