@@ -1,24 +1,14 @@
-import { useEffect, useState } from 'react';
-import axios from 'axios';
+import { useRoutes } from 'react-router-dom';
+import routes from './routes';
+import { Suspense } from 'react';
 
 function App() {
-  const [products, setProducts] = useState([]);
-
-  useEffect(() => {
-    axios.get('http://localhost:5000/api/products')
-      .then(res => setProducts(res.data))
-      .catch(err => console.error('API error:', err));
-  }, []);
+  const content = useRoutes(routes);
 
   return (
-    <div>
-      <h1>Danh sách sản phẩm</h1>
-      <ul>
-        {products.map(p => (
-          <li key={p.id}>{p.name} - {p.price}</li>
-        ))}
-      </ul>
-    </div>
+    <>
+      <Suspense fallback={<div>Loading...</div>}>{content}</Suspense>
+    </>
   );
 }
 

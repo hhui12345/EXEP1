@@ -1,22 +1,7 @@
-const express = require('express');
-const cors = require('cors');
-const db = require('./db');
+const app = require('./src/app');
 
-const app = express();
+const PORT = process.env.DEV_APP_PORT || 5000;
 
-// ⭐ Viết ngay sau khởi tạo app
-app.use(cors());             // Cho phép frontend gọi API
-app.use(express.json());     // Đọc JSON từ body request
-
-// API - Lấy danh sách sản phẩm
-app.get('/api/products', (req, res) => {
-  db.query('SELECT * FROM products', (err, results) => {
-    if (err) return res.status(500).json({ error: err });
-    res.json(results);
-  });
-});
-
-// Khởi động server
-app.listen(5000, () => {
-  console.log("Server running on port 5000");
+app.listen(PORT, () => {
+  console.log(`Server on running with port ${PORT}`);
 });
