@@ -1,6 +1,8 @@
 import { useRoutes } from 'react-router-dom';
 import routes from './routes';
 import { Suspense } from 'react';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   const content = useRoutes(routes);
@@ -8,6 +10,7 @@ function App() {
   return (
     <>
       <Suspense fallback={<div>Loading...</div>}>{content}</Suspense>
+      <ToastContainer />
     </>
   );
 }

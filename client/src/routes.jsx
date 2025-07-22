@@ -6,6 +6,7 @@ import ProductDetail from './pages/product/ProductDetail';
 import AboutPage from './pages/about/About';
 import LoginPage from './pages/login/Login';
 import RegisterPage from './pages/login/Register';
+import CartPage from "./pages/cart/CartPage";
 
 const routes = [
   //client routes
@@ -37,6 +38,10 @@ const routes = [
       {
         path: 'user/register',
         children: [{ index: true, element: <RegisterPage /> }],
+      },
+      {
+        path: 'cart',
+        children: [{ index: true, element: <CartPage /> }],
       },
     ],
   },

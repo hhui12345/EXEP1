@@ -27,8 +27,8 @@ function ProductCard() {
           >
             Xem chi tiết
           </Link>
-          <Link
-            to='#'
+          <Link 
+            to='/cart'
             className='px-4 py-1 bg-green-700 text-white rounded-md hover:bg-green-800 transition text-sm'
           >
             Mua
