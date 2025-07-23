@@ -224,13 +224,12 @@ export default function Home() {
                 title: 'Công nghệ nén hiện đại',
                 desc: 'Quy trình sản xuất tiên tiến, đảm bảo chất lượng đồng đều',
                 image:
-                  'https://scontent.fhan2-5.fna.fbcdn.net/v/t39.30808-6/496926970_712842514497720_2705648230695928993_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGnSniMyIi5jAbz_6MYo28ec5eShi5Hp71zl5KGLkenvVQHSNq-ljiIxCSwReGwqHvCOCEx1JVcX6_vKXcSdtEa&_nc_ohc=tl-g5XoFyIQQ7kNvwFtebHU&_nc_oc=Adn-pYLR79PKrG7sAYcv2vKHrUpvIeyA1_UjOpxFRzLePgmrLZD5eBJ1iyySKsasWkE&_nc_zt=23&_nc_ht=scontent.fhan2-5.fna&_nc_gid=cSXV-InuGA8_5oW_xR5tSA&oh=00_AfRj6uP2t-7s18t9E1UnlIblj5pbciberAG0ATndwUrDNg&oe=687CCD79',
+                  '/assets/vien-nen.jpg?height=400&width=400',
               },
               {
                 title: 'Kiểm tra chất lượng',
                 desc: 'Mỗi lô hàng được kiểm tra kỹ lưỡng trước khi xuất xưởng',
-                image:
-                  'https://scontent.fhan20-1.fna.fbcdn.net/v/t39.30808-6/495702531_710384478076857_6896782404354885775_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHTrs1vmbLNJpIMCTn6lQeL_ZrQhqhdwqL9mtCGqF3CouN69rRxoDFvdTTy1IIx04Nw4yvUH3GZWo_qKeMAOK9i&_nc_ohc=tASwjiaJ8tEQ7kNvwGBqXA1&_nc_oc=AdmzIi1VG6UG5IyC_R26g6u3blkvwfi45zVEUKAx84c94zMtOgtwMCRtT-YY_RlZsW8&_nc_zt=23&_nc_ht=scontent.fhan20-1.fna&_nc_gid=WddWWx466X0D9B5oAgvSqg&oh=00_AfQvCdDD_g5z7UyHmeUziOcfKmvAqtjBCQtr-r92-p1V4g&oe=687CCA12',
+                image: '/assets/chat.jpg?height=400&width=400',
               },
             ].map((item, i) => (
               <div
