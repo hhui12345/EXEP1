@@ -10,21 +10,21 @@ export default function CartPage() {
       name: 'LiteMate Classic',
       price: 25000,
       quantity: 1,
-      image: '../../../public/assets/product.png',
+      image: 'https://scontent.fhan14-4.fna.fbcdn.net/v/t39.30808-6/496008467_710270574754914_696396985638097819_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGcDykVVD6TX6-e2PYYzM5wopkq9HovbyaimSr0ei9vJsQ1SiYZmKcmIlASrAocm-Nfl1PIAaIJND5DkVg0t35j&_nc_ohc=R-PIeW_g3zkQ7kNvwGCjm6P&_nc_oc=Adk1OZANGH1HhgEBu0rbp8axhxMfphY2aLIWWtGGS09nlcB-EcFs8tFpee2MV71oHvsqQaHi8BKKB4lRfnMmca0R&_nc_zt=23&_nc_ht=scontent.fhan14-4.fna&_nc_gid=Sljw2ubig7XNlf5NKQ9P7w&oh=00_AfS8YyypNwKY1sfq-c_QsosgLaHRKOEdDiQmDyXYyplpbw&oe=6886DFAE',
     },
     {
       id: 1,
       name: 'LiteMate Pro',
       price: 50000,
       quantity: 1,
-      image: '../../../public/assets/product.png',
+      image: 'https://scontent.fhan14-4.fna.fbcdn.net/v/t39.30808-6/496008467_710270574754914_696396985638097819_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGcDykVVD6TX6-e2PYYzM5wopkq9HovbyaimSr0ei9vJsQ1SiYZmKcmIlASrAocm-Nfl1PIAaIJND5DkVg0t35j&_nc_ohc=R-PIeW_g3zkQ7kNvwGCjm6P&_nc_oc=Adk1OZANGH1HhgEBu0rbp8axhxMfphY2aLIWWtGGS09nlcB-EcFs8tFpee2MV71oHvsqQaHi8BKKB4lRfnMmca0R&_nc_zt=23&_nc_ht=scontent.fhan14-4.fna&_nc_gid=Sljw2ubig7XNlf5NKQ9P7w&oh=00_AfS8YyypNwKY1sfq-c_QsosgLaHRKOEdDiQmDyXYyplpbw&oe=6886DFAE',
     },
     {
       id: 2,
       name: 'LiteMate Family',
       price: 75000,
       quantity: 1,
-      image: '../../../public/assets/product.png',
+      image: 'https://scontent.fhan14-4.fna.fbcdn.net/v/t39.30808-6/496008467_710270574754914_696396985638097819_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGcDykVVD6TX6-e2PYYzM5wopkq9HovbyaimSr0ei9vJsQ1SiYZmKcmIlASrAocm-Nfl1PIAaIJND5DkVg0t35j&_nc_ohc=R-PIeW_g3zkQ7kNvwGCjm6P&_nc_oc=Adk1OZANGH1HhgEBu0rbp8axhxMfphY2aLIWWtGGS09nlcB-EcFs8tFpee2MV71oHvsqQaHi8BKKB4lRfnMmca0R&_nc_zt=23&_nc_ht=scontent.fhan14-4.fna&_nc_gid=Sljw2ubig7XNlf5NKQ9P7w&oh=00_AfS8YyypNwKY1sfq-c_QsosgLaHRKOEdDiQmDyXYyplpbw&oe=6886DFAE',
     },
   ]);
   const [shippingMethod, setShippingMethod] = useState('pickup');
