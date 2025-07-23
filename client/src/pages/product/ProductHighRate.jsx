@@ -8,7 +8,7 @@ function ProductHighRate() {
                  hover:shadow-lg w-full'
     >
       <img
-        src='https://scontent.fhan2-4.fna.fbcdn.net/v/t39.30808-6/494696458_710601798055125_8798376064221314940_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFAJpN4MSoJb6yVmc38vxEyzfXhEhuRuqTN9eESG5G6pAbxuD2TmuySSNA_1ROqYftiuqPiFW8eoDYqmhtYkZcY&_nc_ohc=lK05lepSw9cQ7kNvwHMVoU6&_nc_oc=AdnIBsEBmDVkOuNfb9Tmm_JOXJHccUx_HypmGJW9arwDpfkm17m-LAC3UgehRDcoP0o&_nc_zt=23&_nc_ht=scontent.fhan2-4.fna&_nc_gid=JozEZj9v2LlxYJWvEDuPxA&oh=00_AfS0xXZxBuKfSdBtcuBYZoZmH5RLxaZdMte4TNBYgIG4cw&oe=687CC0AF'
+        src='../../../public/assets/product-2.png'
         alt='Tranh Vải'
         className='w-full h-40 sm:h-56 object-cover'
       />

@@ -33,7 +33,7 @@ function ProductDetail() {
           {/* Image */}
           <div className='relative aspect-square'>
             <img
-              src='https://i.pinimg.com/736x/c9/59/0e/c9590e571af77a1127f9a15945556bea.jpg'
+              src='../../../public/assets/product.png'
               alt='Sản phẩm'
               className='object-cover w-[66.6667vw] h-[90vh] rounded-lg'
             />
