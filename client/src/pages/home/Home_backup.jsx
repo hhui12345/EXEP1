@@ -17,12 +17,12 @@ export default function Home() {
               môi trường
             </p>
             <div className='flex flex-col sm:flex-row gap-4 justify-center'>
-              <button className='bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg'>
+              <Link to="/products" className='bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg'>
                 Khám phá sản phẩm
-              </button>
-              <button className='border-2 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300'>
+              </Link>
+              <Link to="/about" className='border-2 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300'>
                 Tìm hiểu thêm
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -261,9 +261,9 @@ export default function Home() {
           <p className='text-2xl text-orange-100 mb-8 max-w-2xl mx-auto'>
             Mồi than mùn cưa - Giải pháp đốt lửa thông minh và bền vững
           </p>
-          <button className='bg-white text-orange-600 hover:bg-orange-50 px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg'>
+          <Link to="/products" className='bg-white text-orange-600 hover:bg-orange-50 px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg'>
             Đặt hàng ngay
-          </button>
+          </Link>
         </div>
       </section>
 

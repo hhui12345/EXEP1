@@ -89,7 +89,7 @@ function About() {
               <section id='product' className='grid md:grid-cols-2 gap-8'>
                 <div className='relative group overflow-hidden rounded-3xl shadow-xl'>
                   <img
-                  src='https://scontent.fhan2-3.fna.fbcdn.net/v/t39.30808-6/495631422_712374451211193_4448146277555344503_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHKsvjjjFr5B5Xvl94xsGqlSqA6phB1P6NKoDqmEHU_o2LqONW0nbVDETp8IpwAOuYhNkZUS8Ll8b8WOGKAl6gk&_nc_ohc=Idew4fhafZMQ7kNvwGvU-gQ&_nc_oc=AdmvxJqrT_ckgPdSyoET3OmZ68h51jsMMpKVe2wHOzjJUiebe4RCV3uztSSAf5ymI4c&_nc_zt=23&_nc_ht=scontent.fhan2-3.fna&_nc_gid=6mHe3VTcPgZmRf2JC8P25w&oh=00_AfQQnAV0ND7jxZtI-8gtc746TP_a_soH9-D1y_pjLHVBRA&oe=687CED5F'
+                    src='../../../public/assets/product.png'
                     alt='Viên mồi lửa LiteMate'
                     className='w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500'
                   />
@@ -202,7 +202,7 @@ function About() {
                 className='relative overflow-hidden rounded-3xl shadow-2xl'
               >
                 <img
-                  src='https://scontent.fhan2-3.fna.fbcdn.net/v/t39.30808-6/496939235_712842531164385_8630821236100372135_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGpRrPFio0Q--TqL2lK-n_J-bzg4R4HPIf5vODhHgc8h5yOsaJCUkNwWHaMyOYx1HUBtFDECMJZm1ZuyVvycVPW&_nc_ohc=oNe7jyl3RJEQ7kNvwGuRyoZ&_nc_oc=AdnPDNRDkafuRGc5Gm36nuuSCV3i_ZPvbo0dBW5ErLxsIliiZuYTf2UcXuVLgpYlHIQ&_nc_zt=23&_nc_ht=scontent.fhan2-3.fna&_nc_gid=x12Cpi2ZGMo6mysR5ytPKg&oh=00_AfTooDjc_P-sjCBxIrOSruw4blZjHEZdsuEY3BPJX3dPFA&oe=687CDE86'
+                  src='../../../public/assets/ungdung.jpg'
                   alt='Ứng dụng viên mồi lửa LiteMate'
                   className='w-full h-96 object-cover'
                 />

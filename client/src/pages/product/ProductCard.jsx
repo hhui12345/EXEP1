@@ -15,8 +15,7 @@ function ProductCard() {
 
       <div className='p-4'>
         <h3 className='text-lg sm:text-xl font-semibold text-gray-900 mb-1'>
-          Viên mồi lửa 
-
+          LiteMate Classic
         </h3>
         <p className='text-sm sm:text-base text-gray-700 mb-3'>25.000 VND</p>
 
@@ -27,7 +26,7 @@ function ProductCard() {
           >
             Xem chi tiết
           </Link>
-          <Link 
+          <Link
             to='/cart'
             className='px-4 py-1 bg-green-700 text-white rounded-md hover:bg-green-800 transition text-sm'
           >
