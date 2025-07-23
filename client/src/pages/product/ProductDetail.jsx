@@ -42,7 +42,7 @@ function ProductDetail() {
           {/* Info */}
           <div className='space-y-6'>
             <h2 className='text-2xl sm:text-3xl font-bold text-gray-900'>
-              Tranh Vải Tái Chế - Hoa Sen
+              LiteMate Classic
             </h2>
 
             <div className='flex flex-wrap gap-3'>
@@ -55,16 +55,20 @@ function ProductDetail() {
             </div>
 
             <div className='text-3xl sm:text-4xl font-bold text-red-600'>
-              450.000 VND
+              25.000 VND
             </div>
 
             <div className='text-sm sm:text-base text-gray-600 space-y-2'>
               <div>
-                <span className='font-medium'>Loại:</span> Tranh vải tái chế
+                <span className='font-medium'>Loại:</span> Viên mồi lửa từ mùn
+                cưa
               </div>
               <p>
-                <span className='font-medium'>Mô tả:</span> Tác phẩm nghệ thuật
-                tinh tế từ vải tái chế, tái hiện hình ảnh hoa sen thanh tao...
+                <span className='font-medium'>Mô tả:</span> Sản phẩm thân thiện
+                với môi trường, được làm từ mùn cưa ép tự nhiên, dễ bắt lửa và
+                tiện lợi cho việc nhóm bếp, đốt lửa trại hoặc sử dụng trong lò
+                nướng than. Không hóa chất độc hại, an toàn cho sức khỏe và bảo
+                vệ thiên nhiên.
               </p>
             </div>
 
