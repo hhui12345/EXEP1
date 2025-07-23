@@ -8,7 +8,7 @@ function ProductCard() {
                  transform transition-transform duration-700 hover:scale-105 hover:shadow-lg'
     >
       <img
-        src='../../../public/assets/product.png'
+        src='/public/assets/product-2.png'
         alt='Ảnh'
         className='w-full h-48 sm:h-72 object-cover'
       />
